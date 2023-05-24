@@ -1,16 +1,27 @@
-# simple_auth_flutter_firebase_ui
+# Minimal authentication flow with Flutter & Firebase Auth
 
-A new Flutter project.
+A simple Flutter app showing how to authenticate with the [Firebase UI Auth](https://pub.dev/packages/firebase_ui_auth) package:
 
-## Getting Started
+![Simple auth flow](/.github/images/simple-auth-flow.png)
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+- Create a Firebase project from [the console](https://console.firebase.google.com/)
+- clone this repo
+- run `flutterfire configure --project=your-firebase-project-id`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Once this is done, you should be able to run the app on iOS, Android, and web, but **not on macOS**.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## MacOS setup
+
+To get the app to work on macOS, follow the steps on this guide:
+
+- [Flutter & Firebase Auth: How to Get it Working on macOS](https://codewithandrea.com/articles/flutter-firebase-auth-macos/)
+
+You can grab the completed code too:
+
+```
+git checkout macos-project-fixes
+```
+
+### [LICENSE: MIT](LICENSE.md)
